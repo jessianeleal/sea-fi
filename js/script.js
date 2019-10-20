@@ -5,15 +5,15 @@ $('.nav__sf a').click(function() {
  });
 
 
-const bgNav =  document.querySelector("nav")
+// const bgNav =  document.querySelector("nav")
 
-window.addEventListener("scroll", function(){
-  if (pageYOffset >= 200) {
-    bgNav.classList.remove("bg-transparent")
-    bgNav.classList.add("nav__sf-bg")
-  }
-  if (pageYOffset < 200){
-    bgNav.classList.add("bg-transparent")
-    bgNav.classList.remove("nav__sf-bg")
-  } 
-})
+// window.addEventListener("scroll", function(){
+//   if (pageYOffset >= 200) {
+//     bgNav.classList.remove("bg-transparent")
+//     bgNav.classList.add("nav__sf-bg")
+//   }
+//   if (pageYOffset < 200){
+//     bgNav.classList.add("bg-transparent")
+//     bgNav.classList.remove("nav__sf-bg")
+//   } 
+// })

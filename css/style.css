@@ -23,7 +23,6 @@ h1  {
     font-size: 27pt;
     margin-top: px;
     margin-bottom: 150px;
-
 }
 
 .pricing .card {
@@ -69,27 +68,40 @@ footer img {
     width: 100px;
 }
 
+.contrtact__sf {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .pricing .card-price {
         font-size: 1.5rem;
         margin: 0;
-        }
+    }
     .pricing ul li {
         margin-bottom: 0;
-        } 
+    }
+        
+    h1 {
+        margin-bottom: 180px;
+        font-size: 35pt;
+    
+    }
 
-        .none__sf-2 {
-            display: none;
-        }
+    h3 {
+        font-size: 28pt;
+    }
 
-        h1 {
-            margin-bottom: 50px;
-        }
+    .none__sf {
+        display: none;
+    }
 
-        .none__sf {
-            display: none;
-        }
+    .contrtact__sf {
+        display: block;
+        padding: 10px 40px;
+        width: 180px;
+        background-color: #1f2877;
+        margin-bottom: 30px;
+    }
        
 }
 
@@ -97,11 +109,16 @@ footer img {
     .pricing .card-price {
         font-size: 1.5rem;
         margin: 0;
-        }
-    
-
-     h1 {
-        margin-bottom: 100px;
     }
+
+    h1 {
+        margin-bottom: 150px;
+        font-size: 23pt;
+    }
+
+    h3 {
+        font-size: 20pt;
+    }
+
     
 }

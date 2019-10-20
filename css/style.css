@@ -89,7 +89,7 @@ footer img {
        
 }
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
     .pricing .card-price {
         font-size: 1.5rem;
         margin: 0;
